@@ -1,0 +1,172 @@
+2026-02-04 16:38:05 - scheduler - INFO - 手动触发任务: douyin_follower_crawler
+2026-02-04 16:38:05 - scheduler - INFO - 开始执行任务: douyin_follower_crawler
+2026-02-04 16:38:10 - scheduler - INFO - 抖音博主 MS4wLjABAAAAGHyQcEXksWc_qdQ7RLiwMMnrOaqYYC0mB4xvzF2_28E 数据采集成功，粉丝数: 4478512
+2026-02-04 16:38:10 - scheduler - INFO - 任务 douyin_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 16:45:50 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-04 16:45:50 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-04 16:45:55 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-04 16:45:55 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-04 16:46:15 - scheduler - INFO - 手动触发任务: xiaohongshu_follower_crawler
+2026-02-04 16:46:15 - scheduler - INFO - 开始执行任务: xiaohongshu_follower_crawler
+2026-02-04 16:46:24 - scheduler - INFO - 小红书博主 https://www.xiaohongshu.com/user/profile/584646cd82ec390d801d2816 数据采集成功，粉丝数: 1009314
+2026-02-04 16:46:38 - scheduler - INFO - 小红书博主 https://xhslink.com/m/1lvePZ4Ge9k 数据采集成功，粉丝数: 1009314
+2026-02-04 16:46:38 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 执行完成，总记录: 2, 成功: 2, 失败: 0
+2026-02-04 16:52:42 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-04 16:52:42 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-04 16:52:48 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6362418
+2026-02-04 16:52:48 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 17:13:13 - scheduler - INFO - 任务 douyin_follower_crawler 调度时间已更新为 17:15
+2026-02-04 17:13:16 - scheduler - INFO - 任务 weibo_follower_crawler 调度时间已更新为 17:15
+2026-02-04 17:13:19 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 调度时间已更新为 17:15
+2026-02-04 17:15:43 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:15:43 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:15:43 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:15:43 - scheduler - INFO - 调度器已启动
+2026-02-04 17:16:01 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:16
+2026-02-04 17:16:01 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:16:01 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:16:01 - scheduler - INFO - 任务 douyin_follower_crawler 调度时间已更新为 17:16
+2026-02-04 17:16:06 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:16
+2026-02-04 17:16:06 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:06 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:15
+2026-02-04 17:16:06 - scheduler - INFO - 任务 weibo_follower_crawler 调度时间已更新为 17:17
+2026-02-04 17:16:09 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:16
+2026-02-04 17:16:09 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:09 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:09 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 调度时间已更新为 17:17
+2026-02-04 17:16:14 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:14 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:14 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:17
+2026-02-04 17:16:14 - scheduler - INFO - 任务 douyin_follower_crawler 调度时间已更新为 17:17
+2026-02-04 17:17:00 - scheduler - INFO - 开始执行任务: douyin_follower_crawler
+2026-02-04 17:17:04 - scheduler - INFO - 抖音博主 MS4wLjABAAAAGHyQcEXksWc_qdQ7RLiwMMnrOaqYYC0mB4xvzF2_28E 数据采集成功，粉丝数: 4478719
+2026-02-04 17:17:04 - scheduler - INFO - 任务 douyin_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 17:17:04 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-04 17:17:10 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6362435
+2026-02-04 17:17:10 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 17:17:10 - scheduler - INFO - 开始执行任务: xiaohongshu_follower_crawler
+2026-02-04 17:17:23 - scheduler - INFO - 小红书博主 https://xhslink.com/m/1lvePZ4Ge9k 数据采集成功，粉丝数: 1009335
+2026-02-04 17:17:23 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 17:25:25 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-04 17:25:25 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-04 17:25:31 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6362444
+2026-02-04 17:25:31 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-04 17:54:29 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-04 17:54:29 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-04 17:54:35 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6362478
+2026-02-04 17:54:35 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 10:04:43 - scheduler - INFO - 手动触发任务: douyin_follower_crawler
+2026-02-05 10:04:43 - scheduler - INFO - 开始执行任务: douyin_follower_crawler
+2026-02-05 10:04:48 - scheduler - INFO - 抖音博主 MS4wLjABAAAAGHyQcEXksWc_qdQ7RLiwMMnrOaqYYC0mB4xvzF2_28E 数据采集成功，粉丝数: 4480853
+2026-02-05 10:04:48 - scheduler - INFO - 任务 douyin_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 10:04:53 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 10:04:53 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 10:04:59 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363200
+2026-02-05 10:04:59 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 10:05:03 - scheduler - INFO - 手动触发任务: xiaohongshu_follower_crawler
+2026-02-05 10:05:03 - scheduler - INFO - 开始执行任务: xiaohongshu_follower_crawler
+2026-02-05 10:05:20 - scheduler - INFO - 小红书博主 https://xhslink.com/m/1lvePZ4Ge9k 数据采集成功，粉丝数: 1009782
+2026-02-05 10:05:20 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 10:41:19 - scheduler - INFO - 手动触发任务: douyin_follower_crawler
+2026-02-05 10:41:19 - scheduler - INFO - 开始执行任务: douyin_follower_crawler
+2026-02-05 10:41:24 - scheduler - INFO - 抖音博主 MS4wLjABAAAAGHyQcEXksWc_qdQ7RLiwMMnrOaqYYC0mB4xvzF2_28E 数据采集成功，粉丝数: 4480937
+2026-02-05 10:41:24 - scheduler - INFO - 任务 douyin_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 11:09:58 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 11:09:58 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 11:10:03 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363273
+2026-02-05 11:10:03 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 12:03:59 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 12:03:59 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 12:04:05 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363399
+2026-02-05 12:04:05 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 13:13:05 - scheduler - INFO - 手动触发任务: xiaohongshu_follower_crawler
+2026-02-05 13:13:05 - scheduler - INFO - 开始执行任务: xiaohongshu_follower_crawler
+2026-02-05 13:13:20 - scheduler - INFO - 小红书博主 https://xhslink.com/m/1lvePZ4Ge9k 数据采集成功，粉丝数: 1009907
+2026-02-05 13:13:20 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 13:31:18 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 13:31:18 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 13:31:24 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363625
+2026-02-05 13:31:24 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 13:49:13 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 13:49:13 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 13:49:18 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363662
+2026-02-05 13:49:18 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 13:54:36 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 13:54:36 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 13:54:42 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363678
+2026-02-05 13:54:42 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 14:17:10 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 14:17:10 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 14:17:16 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6363726
+2026-02-05 14:17:16 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 14:36:11 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 14:36:11 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 14:36:16 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 14:36:16 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 14:36:40 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 14:36:40 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 14:36:45 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 14:36:45 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 17:40:47 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 17:40:47 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 17:40:52 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 17:40:52 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 17:41:41 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 17:41:41 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 17:41:46 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 17:41:46 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 17:49:51 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 17:49:51 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 17:49:56 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 17:49:56 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 17:50:34 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:17
+2026-02-05 17:50:34 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:17
+2026-02-05 17:50:34 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:17
+2026-02-05 17:50:34 - scheduler - INFO - 调度器已启动
+2026-02-05 17:50:41 - scheduler - INFO - 任务 douyin_follower_crawler 已调度，执行时间: 17:17
+2026-02-05 17:50:41 - scheduler - INFO - 任务 weibo_follower_crawler 已调度，执行时间: 17:51
+2026-02-05 17:50:41 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 已调度，执行时间: 17:17
+2026-02-05 17:50:41 - scheduler - INFO - 任务 weibo_follower_crawler 调度时间已更新为 17:51
+2026-02-05 17:50:53 - scheduler - INFO - 手动触发任务: xiaohongshu_follower_crawler
+2026-02-05 17:50:53 - scheduler - INFO - 开始执行任务: xiaohongshu_follower_crawler
+2026-02-05 17:51:00 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 17:51:06 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 17:51:06 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 17:51:09 - scheduler - INFO - 小红书博主 https://xhslink.com/m/1lvePZ4Ge9k 数据采集成功，粉丝数: 1010071
+2026-02-05 17:51:09 - scheduler - INFO - 任务 xiaohongshu_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:06:48 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:06:48 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:06:53 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 18:06:53 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 18:32:35 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:32:35 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:32:41 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364244
+2026-02-05 18:32:41 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:34:30 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:34:30 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:34:36 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364252
+2026-02-05 18:34:36 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:35:00 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:35:00 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:35:06 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364254
+2026-02-05 18:35:06 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:35:45 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:35:45 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:35:50 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364254
+2026-02-05 18:35:50 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:42:18 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:42:18 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:42:23 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 18:42:23 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 18:43:05 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:43:05 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:43:11 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364272
+2026-02-05 18:43:11 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
+2026-02-05 18:47:46 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:47:46 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:47:51 - scheduler - WARNING - 微博用户 3828809034 数据采集失败
+2026-02-05 18:47:51 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 0, 失败: 1
+2026-02-05 18:48:19 - scheduler - INFO - 手动触发任务: weibo_follower_crawler
+2026-02-05 18:48:19 - scheduler - INFO - 开始执行任务: weibo_follower_crawler
+2026-02-05 18:48:25 - scheduler - INFO - 微博用户 3828809034 数据采集成功，粉丝数: 6364285
+2026-02-05 18:48:25 - scheduler - INFO - 任务 weibo_follower_crawler 执行完成，总记录: 1, 成功: 1, 失败: 0
