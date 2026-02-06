@@ -7,6 +7,20 @@ from config import DataConfig
 from utils.logger import Logger
 
 
+def adapt_datetime(dt):
+    """将datetime对象适配为SQLite字符串"""
+    return dt.strftime('%Y-%m-%d %H:%M:%S')
+
+
+def convert_datetime(s):
+    """将SQLite字符串转换为datetime对象"""
+    return datetime.strptime(s.decode('utf-8'), '%Y-%m-%d %H:%M:%S')
+
+
+sqlite3.register_adapter(datetime, adapt_datetime)
+sqlite3.register_converter("TIMESTAMP", convert_datetime)
+
+
 class Database:
     """数据库管理类 - 使用SQLite"""
 
@@ -35,7 +49,7 @@ class Database:
         """
         conn = None
         try:
-            conn = sqlite3.connect(self.db_path)
+            conn = sqlite3.connect(self.db_path, detect_types=sqlite3.PARSE_DECLTYPES)
             conn.row_factory = sqlite3.Row
             conn.text_factory = str
             yield conn
@@ -60,8 +74,8 @@ class Database:
                     name TEXT NOT NULL UNIQUE,
                     code TEXT NOT NULL UNIQUE,
                     description TEXT,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
+                    updated_at TIMESTAMP DEFAULT (datetime('now', 'localtime'))
                 )
             ''')
 
@@ -74,8 +88,8 @@ class Database:
                     user_identity TEXT,
                     avatar TEXT,
                     is_active INTEGER DEFAULT 1,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
+                    updated_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
                     UNIQUE(platform_id, user_id),
                     FOREIGN KEY (platform_id) REFERENCES platforms(id)
                 )
@@ -91,7 +105,7 @@ class Database:
                     record_time TIMESTAMP NOT NULL,
                     status TEXT DEFAULT 'success',
                     error_message TEXT,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
                     FOREIGN KEY (user_id) REFERENCES users(id),
                     FOREIGN KEY (platform_id) REFERENCES platforms(id)
                 )
@@ -109,8 +123,8 @@ class Database:
                     retry_count INTEGER DEFAULT 0,
                     max_retry INTEGER DEFAULT 3,
                     status TEXT DEFAULT 'idle',
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
+                    updated_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
                     FOREIGN KEY (platform_id) REFERENCES platforms(id)
                 )
             ''')
@@ -126,7 +140,7 @@ class Database:
                     success_count INTEGER DEFAULT 0,
                     failed_count INTEGER DEFAULT 0,
                     error_message TEXT,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
                     FOREIGN KEY (task_id) REFERENCES schedule_tasks(id)
                 )
             ''')
