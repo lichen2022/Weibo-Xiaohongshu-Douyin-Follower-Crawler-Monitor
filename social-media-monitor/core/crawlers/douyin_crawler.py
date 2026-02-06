@@ -56,10 +56,14 @@ class DouyinCrawler:
             requests.RequestException: 请求异常
         """
         try:
+            cookie = self._get_cookie()
+            headers = self.headers.copy()
+            if cookie:
+                headers['Cookie'] = cookie
+            
             response = requests.get(
                 url,
-                headers=self.headers,
-                cookies={"cookie": self._get_cookie()} if self._get_cookie() else {},
+                headers=headers,
                 timeout=30
             )
             response.raise_for_status()
@@ -83,10 +87,14 @@ class DouyinCrawler:
             url = f"https://www.douyin.com/aweme/v1/web/user/profile/other/?sec_user_id={sec_user_id}"
 
             print(f"正在请求API: {url}")
+            cookie = self._get_cookie()
+            headers = self.headers.copy()
+            if cookie:
+                headers['Cookie'] = cookie
+            
             response = requests.get(
                 url,
-                headers=self.headers,
-                cookies=self.cookies,
+                headers=headers,
                 timeout=30
             )
             print(f"响应状态码: {response.status_code}")
@@ -128,10 +136,14 @@ class DouyinCrawler:
             url = f"https://www.douyin.com/aweme/v1/web/user/profile/other/?sec_user_id={sec_user_id}"
 
             print(f"正在请求API: {url}")
+            cookie = self._get_cookie()
+            headers = self.headers.copy()
+            if cookie:
+                headers['Cookie'] = cookie
+            
             response = requests.get(
                 url,
-                headers=self.headers,
-                cookies=self.cookies,
+                headers=headers,
                 timeout=30
             )
             print(f"响应状态码: {response.status_code}")
