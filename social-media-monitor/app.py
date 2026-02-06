@@ -1,3 +1,18 @@
+# 在app.py的最开始添加
+import os
+import time
+
+# 设置时区为中国时区
+os.environ['TZ'] = 'Asia/Shanghai'
+time.tzset()  # Unix-like系统有效
+
+# 对于Windows，需要额外的处理
+if os.name == 'nt':
+    import win32api
+    import win32con
+    import win32timezone
+    # Windows特定的时区设置
+
 import streamlit as st
 import pandas as pd
 from datetime import datetime
