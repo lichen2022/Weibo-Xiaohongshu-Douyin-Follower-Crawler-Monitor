@@ -1,9 +1,24 @@
 import sqlite3
 import os
+from datetime import datetime
 from typing import Optional, Dict
 from contextlib import contextmanager
 from config import DataConfig
 from utils.logger import Logger
+
+
+def adapt_datetime(dt):
+    """将datetime对象适配为SQLite字符串"""
+    return dt.strftime('%Y-%m-%d %H:%M:%S')
+
+
+def convert_datetime(s):
+    """将SQLite字符串转换为datetime对象"""
+    return datetime.strptime(s.decode('utf-8'), '%Y-%m-%d %H:%M:%S')
+
+
+sqlite3.register_adapter(datetime, adapt_datetime)
+sqlite3.register_converter("TIMESTAMP", convert_datetime)
 
 
 class CookieDatabase:
@@ -34,7 +49,7 @@ class CookieDatabase:
         """
         conn = None
         try:
-            conn = sqlite3.connect(self.db_path)
+            conn = sqlite3.connect(self.db_path, detect_types=sqlite3.PARSE_DECLTYPES)
             conn.row_factory = sqlite3.Row
             conn.text_factory = str
             yield conn
@@ -58,8 +73,8 @@ class CookieDatabase:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     platform TEXT NOT NULL UNIQUE,
                     cookie TEXT NOT NULL,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    updated_at TIMESTAMP DEFAULT (datetime('now', 'localtime')),
+                    created_at TIMESTAMP DEFAULT (datetime('now', 'localtime'))
                 )
             ''')
 
@@ -82,7 +97,7 @@ class CookieDatabase:
 
                 cursor.execute('''
                     INSERT OR REPLACE INTO cookies (platform, cookie, updated_at)
-                    VALUES (?, ?, CURRENT_TIMESTAMP)
+                    VALUES (?, ?, datetime('now', 'localtime'))
                 ''', (platform, cookie))
 
                 self.logger.info(f"Cookie已保存: {platform}")
